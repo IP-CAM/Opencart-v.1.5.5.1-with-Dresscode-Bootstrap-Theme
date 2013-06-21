@@ -1,0 +1,6 @@
+table.radio tr td:first-child input{margin-top: -1px}
+.product-info .cart-bottom-box .button_cart input{padding-top:9px}
+.newsletter_footer input{
+    line-height:26px
+}
+

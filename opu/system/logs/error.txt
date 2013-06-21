@@ -1,0 +1,19 @@
+2013-04-29 18:57:53 - PHP Notice:  Undefined index: dealday in /var/www/vhosts/orioraccessories.com/httpdocs/admin/view/template/module/buyshop.tpl on line 268
+2013-05-01 16:34:55 - PHP Notice:  Uninitialized string offset: 0 in /var/www/vhosts/orioraccessories.com/httpdocs/catalog/view/theme/dresscode/template/product/related_products.tpl on line 13
+2013-05-01 16:34:55 - PHP Notice:  Uninitialized string offset: 0 in /var/www/vhosts/orioraccessories.com/httpdocs/catalog/view/theme/dresscode/template/product/related_products.tpl on line 13
+2013-05-01 16:42:48 - PHP Notice:  Uninitialized string offset: 0 in /var/www/vhosts/orioraccessories.com/httpdocs/catalog/view/theme/dresscode/template/product/related_products.tpl on line 13
+2013-05-01 16:42:48 - PHP Notice:  Uninitialized string offset: 0 in /var/www/vhosts/orioraccessories.com/httpdocs/catalog/view/theme/dresscode/template/product/related_products.tpl on line 13
+2013-05-01 16:44:30 - PHP Notice:  Uninitialized string offset: 0 in /var/www/vhosts/orioraccessories.com/httpdocs/catalog/view/theme/dresscode/template/product/related_products.tpl on line 13
+2013-05-01 16:44:30 - PHP Notice:  Uninitialized string offset: 0 in /var/www/vhosts/orioraccessories.com/httpdocs/catalog/view/theme/dresscode/template/product/related_products.tpl on line 13
+2013-05-01 16:53:20 - PHP Notice:  Uninitialized string offset: 0 in /var/www/vhosts/orioraccessories.com/httpdocs/catalog/view/theme/dresscode/template/product/related_products.tpl on line 13
+2013-05-01 16:53:20 - PHP Notice:  Uninitialized string offset: 0 in /var/www/vhosts/orioraccessories.com/httpdocs/catalog/view/theme/dresscode/template/product/related_products.tpl on line 13
+2013-05-08 7:22:32 - PHP Warning:  imagecreatefrompng(): gd-png:  fatal libpng error: Read Error: truncated data in /var/www/vhosts/orioraccessories.com/httpdocs/system/library/image.php on line 32
+2013-05-08 7:22:32 - PHP Warning:  imagecreatefrompng(): gd-png error: setjmp returns error condition in /var/www/vhosts/orioraccessories.com/httpdocs/system/library/image.php on line 32
+2013-05-08 7:22:32 - PHP Warning:  imagecreatefrompng(): '/var/www/vhosts/orioraccessories.com/httpdocs/image/data/banners/slider_img1.png' is not a valid PNG file in /var/www/vhosts/orioraccessories.com/httpdocs/system/library/image.php on line 32
+2013-05-08 7:22:32 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /var/www/vhosts/orioraccessories.com/httpdocs/system/library/image.php on line 109
+2013-05-08 7:22:32 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /var/www/vhosts/orioraccessories.com/httpdocs/system/library/image.php on line 110
+2013-05-08 7:22:32 - PHP Warning:  imagecreatefrompng(): gd-png:  fatal libpng error: Read Error: truncated data in /var/www/vhosts/orioraccessories.com/httpdocs/system/library/image.php on line 32
+2013-05-08 7:22:32 - PHP Warning:  imagecreatefrompng(): gd-png error: setjmp returns error condition in /var/www/vhosts/orioraccessories.com/httpdocs/system/library/image.php on line 32
+2013-05-08 7:22:32 - PHP Warning:  imagecreatefrompng(): '/var/www/vhosts/orioraccessories.com/httpdocs/image/data/banners/slider_img2.png' is not a valid PNG file in /var/www/vhosts/orioraccessories.com/httpdocs/system/library/image.php on line 32
+2013-05-08 7:22:32 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /var/www/vhosts/orioraccessories.com/httpdocs/system/library/image.php on line 109
+2013-05-08 7:22:32 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /var/www/vhosts/orioraccessories.com/httpdocs/system/library/image.php on line 110

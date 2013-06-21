@@ -1,0 +1,28 @@
+/* testimonial */
+#testimonials ul {
+	margin: 0;
+	padding: 0;
+	list-style: none outside none;
+}
+#testimonials > ul > li {
+	margin: 0px 0px 15px 0px;
+}
+.box-testimonial {
+	margin-top: -5px;
+	padding-top: 10px;
+}
+.box-testimonial > div {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+.box-testimonial ul {
+	margin: 0;
+	padding: 0;
+	list-style: none outside none;
+}
+.box-testimonial > ul > li {
+	margin: 0px 0px 15px 0px;
+}

@@ -1,0 +1,66 @@
+#currency a, #language a,
+#header input[type="submit"],
+#slogan li a span,
+#footer_button,
+.newsletter_footer a.button,
+#header #cart .content .checkout a,
+#menu > ul > li > a,
+#menu > ul > li > div,
+#header .button-search{
+    -webkit-transition: All 0.5s ease;
+    -moz-transition: All 0.5s ease;
+    -o-transition: All 0.5s ease;
+    -ms-transition: All 0.5s ease;
+    transition: All 0.5s ease;
+}
+
+
+
+#header input[type="submit"]:hover,
+#slogan li a:hover span,
+#footer_button:hover,
+.newsletter_footer a.button:hover,
+#header #cart .content .checkout a:hover,
+#header .button-search:hover{
+    background-color:#000
+}
+
+
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+    border: 4px solid #888;
+    margin:-4px;	/* Set this to minus the border thickness. */
+    background-color:#fff;
+    cursor:move;
+}
+
+/* This is for the title text. */
+.cloud-zoom-title {
+    font-family:Arial, Helvetica, sans-serif;
+    position:absolute !important;
+    color:#fff;
+    padding:3px;
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    font-size:10px;
+    top:0px;
+}
+
+/* This is the zoom window. */
+.cloud-zoom-big {
+    border:4px solid #ccc;
+    overflow:hidden;
+}
+
+/* This is the loading message. */
+.cloud-zoom-loading {
+    color:white;
+    background:#222;
+    padding:3px;
+    border:1px solid #000;
+}
+
+
+
+
