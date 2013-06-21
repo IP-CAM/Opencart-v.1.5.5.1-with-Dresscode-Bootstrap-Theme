@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+ margin:0;
+ padding:0;
+ padding-top:3px;
+}
+.container{
+	margin-bottom: 10px;
+	padding: 2px 2px 20px 2px;
+	overflow: hidden;
+	background: #FFF;
+	border: 1px solid #DBDBDB;
+	-webkit-box-shadow: inset 0px 0px 15px #DDDDDD;
+	-moz-box-shadow: inset 0px 0px 15px #DDDDDD;
+	box-shadow: inset 0px 0px 15px #DDDDDD;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	clear: both;
+}
+.tel{
+position: relative;top: 94px;left: 52px;
+}
+.msg{
+top:10px;
+position:relative;
+
+}
+.tel input{
+	width:80px;
+	height:12px;
+}
+.submitbtn{
+position: relative;top: 100px;left: 55px;
+}
