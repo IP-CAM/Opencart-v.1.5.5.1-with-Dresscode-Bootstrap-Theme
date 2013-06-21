@@ -1,0 +1,26 @@
+#header #search input {
+    padding:9px 3px 10px 7px;
+    height:17px;
+}
+#header input[type="text"],
+#header input[type="password"],
+#header input[type="email"],
+#header textarea,
+#header select {
+    font: 12px/16px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.newsletter_footer input{
+    line-height:24px
+}
+table.radio tr td:first-child input{margin-top:0px}
+.product-info .cart-bottom-box .button_cart input{padding-top:8px}
+
+#select_top {
+    width: 240px
+}
+
+#header input[type="text"], #header input[type="password"], #header input[type="email"], #header textarea, #header select, #search, #search_shopomania, #select_top .sbHolder{
+    width: 175px
+}
+
+

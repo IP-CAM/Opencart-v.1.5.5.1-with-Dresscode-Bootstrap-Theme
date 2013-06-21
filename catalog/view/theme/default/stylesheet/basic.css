@@ -1,0 +1,103 @@
+#basic-modal-content {display:none;}
+#basic-modal-ATCcontent {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {height:150px; width:350px; color:#000; font-weight:bold; background-color:#FFF; border:4px solid #444; padding:12px;}
+#simplemodal-container .simplemodal-data {padding:8px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(../image/x.png) no-repeat !important; width:46px !important; height:46px !important; display:inline !important; z-index:3200; position:absolute !important; top:-25px !important; right:-25px !important; cursor:pointer;}
+#simplemodal-container h3 {color:#84b8d9;}
+
+
+
+/*Shopping Cart Popup*/
+
+#dialog-overlay {
+
+	/* set it to fill the whil screen */
+	width:100%; 
+	height:100%;
+	
+	/* transparency for different browsers */
+	filter:alpha(opacity=50); 
+	-moz-opacity:0.5; 
+	-khtml-opacity: 0.5; 
+	opacity: 0.5; 
+	background:#000; 
+
+	/* make sure it appear behind the dialog box but above everything else */
+	position:absolute; 
+	top:0; left:0; 
+	z-index:3000; 
+
+	/* hide it by default */
+	display:none;
+}
+
+
+#dialog-box {
+	
+	/* css3 drop shadow */
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	
+	/* css3 border radius */
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	
+	background:#eee;
+	/* styling of the dialog box, i have a fixed dimension for this demo */ 
+	width:480px; 
+	height:210px;
+	overflow:auto;
+	/* make sure it has the highest z-index */
+	position:fixed; 
+	z-index:5000;
+	top:150px !important;
+
+	/* hide it by default */
+	display:none;
+}
+
+#dialog-box .dialog-content {
+	/* style the content */
+	text-align:left; 
+	padding:10px; 
+	margin:13px;
+	color:#666; 
+	font-family:arial;
+	font-size:11px; 
+}
+
+.scbutton{
+	background: none repeat scroll 0 0 #CCC;
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 0 2px 2px #DDDDDD;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 12px;
+}
+
+
+
+.scbutton:hover {
+	background-color: #999;	
+}
+
+/* extra styling */
+#dialog-box .dialog-content p {
+	font-weight:700; margin:0;
+}
+
+#dialog-box .dialog-content ul {
+	margin:10px 0 10px 20px; 
+	padding:0; 
+	height:50px;
+}
