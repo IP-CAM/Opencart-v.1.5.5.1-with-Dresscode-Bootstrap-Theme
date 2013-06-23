@@ -1,30 +1,30 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://orioraccessories.com/admin/');
-define('HTTP_CATALOG', 'http://orioraccessories.com/');
+define('HTTP_SERVER', 'http://local.oroiaccessories/admin/');
+define('HTTP_CATALOG', 'http://oroiaccessories/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://orioraccessories.com/admin/');
-define('HTTPS_CATALOG', 'http://orioraccessories.com/');
+define('HTTPS_SERVER', 'http://oroiaccessories/admin/');
+define('HTTPS_CATALOG', 'http://oroiaccessories/');
 
 // DIR
-define('DIR_APPLICATION', '/var/www/vhosts/orioraccessories.com/httpdocs/admin/');
-define('DIR_SYSTEM', '/var/www/vhosts/orioraccessories.com/httpdocs/system/');
-define('DIR_DATABASE', '/var/www/vhosts/orioraccessories.com/httpdocs/system/database/');
-define('DIR_LANGUAGE', '/var/www/vhosts/orioraccessories.com/httpdocs/admin/language/');
-define('DIR_TEMPLATE', '/var/www/vhosts/orioraccessories.com/httpdocs/admin/view/template/');
-define('DIR_CONFIG', '/var/www/vhosts/orioraccessories.com/httpdocs/system/config/');
-define('DIR_IMAGE', '/var/www/vhosts/orioraccessories.com/httpdocs/image/');
-define('DIR_CACHE', '/var/www/vhosts/orioraccessories.com/httpdocs/system/cache/');
-define('DIR_DOWNLOAD', '/var/www/vhosts/orioraccessories.com/httpdocs/download/');
-define('DIR_LOGS', '/var/www/vhosts/orioraccessories.com/httpdocs/system/logs/');
-define('DIR_CATALOG', '/var/www/vhosts/orioraccessories.com/httpdocs/catalog/');
+define('DIR_APPLICATION', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/admin/');
+define('DIR_SYSTEM', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/system/');
+define('DIR_DATABASE', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/system/database/');
+define('DIR_LANGUAGE', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/admin/language/');
+define('DIR_TEMPLATE', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/admin/view/template/');
+define('DIR_CONFIG', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/system/config/');
+define('DIR_IMAGE', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/image/');
+define('DIR_CACHE', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/system/cache/');
+define('DIR_DOWNLOAD', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/download/');
+define('DIR_LOGS', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/system/logs/');
+define('DIR_CATALOG', 'D:\xampp\htdocs\oroiaccessories/opencart-vn-group-hanh/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysql');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'access');
-define('DB_PASSWORD', '@ccess12e');
-define('DB_DATABASE', 'orior_access');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'dboroi');
 define('DB_PREFIX', 'oc_');
 ?>
